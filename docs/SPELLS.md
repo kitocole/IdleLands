@@ -205,7 +205,7 @@ mini cure ([Cure 1](../src/plugins/combat/spells/Cure.js)) | Heal | 15 |  | Cler
 sweepo generalizo ([SweepingGeneralization 1](../src/plugins/combat/spells/SweepingGeneralization.js)) | Physical | 15 |  | Generalist's Guidebook
 Song of Hurt ([LitanyOfPain 1](../src/plugins/combat/spells/LitanyOfPain.js)) | Debuff | 25 |  | Ancient Lute
 second-old ([DayOldBread 1](../src/plugins/combat/spells/DayOldBread.js)) | Physical | 30 |  | Funny Fungus
-colander ([Siphon 1](../src/plugins/combat/spells/Siphon.js)) | Debuff | 35 |  | Evil Pebble
+colander ([Siphon 1](../src/plugins/combat/spells/Siphon.js)) | Debuff | 35 | A debuff that deals damage based on INT and lowers every stat for a few turns. | Evil Pebble
 venom layer ([VenomCoating 1](../src/plugins/combat/spells/VenomCoating.js)) | Buff | 35 |  | Feathered Cap
 
 
@@ -221,16 +221,16 @@ attack ([Attack 1](../src/plugins/combat/spells/Attack.js)) | Physical | 1 | A s
 Name | Element | Level | Description | Required Collectibles
 ---- | ------- | ----- | ----------- | ---------------------
 attack ([Attack 1](../src/plugins/combat/spells/Attack.js)) | Physical | 1 | A simple attack that uses STR to deal damage. | 
-siphon ([Siphon 1](../src/plugins/combat/spells/Siphon.js)) | Debuff | 1 |  | 
-drain ([Siphon 2](../src/plugins/combat/spells/Siphon.js)) | Debuff | 15 |  | 
-poisontouch ([DebuffTouch 1](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 15 |  | 
-summon ([Summon 1](../src/plugins/combat/spells/Summon.js)) | Physical | 25 |  | 
-deteriorate ([Siphon 3](../src/plugins/combat/spells/Siphon.js)) | Debuff | 35 |  | 
-stuntouch ([DebuffTouch 2](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 35 |  | 
-venomtouch ([DebuffTouch 3](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 55 |  | 
-wither ([Siphon 4](../src/plugins/combat/spells/Siphon.js)) | Debuff | 75 |  | 
-bonecraft ([Bonecraft 1](../src/plugins/combat/spells/Bonecraft.js)) | Heal | 80 |  | Necronomicon
-deathtouch ([DebuffTouch 4](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 85 |  | Forbidden Cleric's Text
+siphon ([Siphon 1](../src/plugins/combat/spells/Siphon.js)) | Debuff | 1 | A debuff that deals damage based on INT and lowers every stat for a few turns. | 
+drain ([Siphon 2](../src/plugins/combat/spells/Siphon.js)) | Debuff | 15 | A debuff that deals damage based on INT and lowers every stat for a few turns. | 
+poisontouch ([DebuffTouch 1](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 15 | Poisons the enemy. | 
+summon ([Summon 1](../src/plugins/combat/spells/Summon.js)) | Physical | 25 | Summons a monster to fight with you. | 
+deteriorate ([Siphon 3](../src/plugins/combat/spells/Siphon.js)) | Debuff | 35 | A debuff that deals damage based on INT and lowers every stat for a few turns. | 
+stuntouch ([DebuffTouch 2](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 35 | Stuns and Poisons the enemy. | 
+venomtouch ([DebuffTouch 3](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 55 | Stuns and Poisons the enemy. | 
+wither ([Siphon 4](../src/plugins/combat/spells/Siphon.js)) | Debuff | 75 | A debuff that deals damage based on INT and lowers every stat for a few turns. | 
+bonecraft ([Bonecraft 1](../src/plugins/combat/spells/Bonecraft.js)) | Heal | 80 | Heals your team based on a dead enemy's max HP. | Necronomicon
+deathtouch ([DebuffTouch 4](../src/plugins/combat/spells/DebuffTouch.js)) | Debuff | 85 | Stuns and Poisons the enemy. | Forbidden Cleric's Text
 
 
 ## Pirate
