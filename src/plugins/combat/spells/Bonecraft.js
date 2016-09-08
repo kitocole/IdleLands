@@ -3,6 +3,7 @@ import _ from 'lodash';
 import { Spell, SpellType } from '../spell';
 
 export class Bonecraft extends Spell {
+  static description = 'Revives and summons an enemy to your team.';
   static element = SpellType.HEAL;
   static tiers = [
     { name: 'bonecraft',     spellPower: 25, weight: 100, cost: 25000,  level: 80,   profession: 'Necromancer',
